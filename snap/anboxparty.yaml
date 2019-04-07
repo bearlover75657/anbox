@@ -61,7 +61,7 @@ apps:
     command: desktop-launch $SNAP/bin/app-android-settings.sh
     desktop: desktop/android-settings.desktop
     slots:
-      - dbus-session-slot
+      - dbus-session-slotanboxparty
     plugs:
       - dbus-session-plug
       - x11
